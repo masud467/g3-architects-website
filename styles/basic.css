@@ -23,6 +23,7 @@
 header{
     background-color:rgba(255, 144, 14, 0.10);
     padding: 50px 240px;
+
 }
 nav{
     display: flex;
@@ -76,6 +77,46 @@ nav a {
     width:100%
 }
 
+
+/* main style */
+
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* team style */
+
+.team-container{
+    display: flex;
+    align-items: center;
+}
+.team-container-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+.team-container-content{
+    padding-left: 70px;
+    padding-left: 70px;
+}
+.team-content-title{
+    font-size: 2.8rem;
+}
+.team-content-title .quick-list{
+    color: #727272;
+    font-weight: 500;
+}
+.team-content-title .our{
+    color: #131313;
+    font-weight: 700;
+}
+.team-content-title .text-feature{
+    color: #FF900E;
+    font-weight: 700;
+}
+
+}
 
 /* Responsive media query */
 
