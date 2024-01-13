@@ -208,4 +208,19 @@ main{
         grid-template-columns: 1fr;
         margin-top: 20px;
     }
+
+    .facts-card-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .facts .facts-description{
+        margin-bottom: 50px ;
+        text-align: center;
+        /* margin-left: 20px; */
+    }
+    .facts .nav-title{
+        text-align: center;
+    }
 }
