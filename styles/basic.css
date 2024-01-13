@@ -124,6 +124,46 @@ main{
     margin-bottom: 2rem;
 }
 
+/* features styles */
+
+.features{
+    display: flex;
+    margin-top: 130px;
+    gap: 100px;
+}
+
+.features-content .card{
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+}
+.features-content .features-title{
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+.features-card-title{
+    color: #131313;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.features-card-description{
+    color: #727272;
+    margin-top: 0;
+}
+
+.ten-years-badges{
+    border-radius: 8px;
+    background: #FF900E;
+    color: #FFF;
+    width: 342px;
+    padding: 40px;
+}
+.ten-years-badges h3{
+    font-size: 4rem;
+    font-weight: 700;
+}
 /* facts section style */
 
 .facts-card-container{
@@ -135,6 +175,7 @@ main{
     border: 1px solid #FF900E;
     text-align: center;
     padding: 30px;
+    margin-bottom: 20px;
 }
 .facts-card-container .card-stats{
     font-size: 2.8rem;
